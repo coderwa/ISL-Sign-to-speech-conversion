@@ -1,0 +1,10 @@
+# Recommended: Python 3.11 on Windows
+# Install PyTorch first from https://pytorch.org if a CUDA-specific build is desired.
+torch
+torchvision
+mediapipe
+opencv-python
+numpy
+pillow
+
+pyttsx3

@@ -1,0 +1,13 @@
+ISL RETRAINING PROJECT
+
+1. Use Python 3.11 on Windows.
+2. pip install -r requirements.txt
+3. Download the RealSign ISL alphabet Dataset.zip:
+   https://github.com/RealSign62/RealSign-Indian-Sign-Language-Dataset
+4. Extract it somewhere outside this project.
+5. python prepare_dataset.py "C:\path\to\Dataset"
+6. python train.py --epochs 15
+7. python download_hand_model.py
+8. python main.py
+
+The trained model is generated after step 6. The dataset and model weights are not bundled in this ZIP.
